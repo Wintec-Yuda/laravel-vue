@@ -1,3 +1,13 @@
 <template>
-  <h1> How To Install Vue 3 in Laravel 10 :) </h1>
+    <AppComponent />
 </template>
+
+<script>
+import AppComponent from '../views/components/AppComponent.vue';
+
+export default {
+    components: {
+        AppComponent
+    }
+}
+</script>
