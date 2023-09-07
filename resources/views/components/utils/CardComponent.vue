@@ -3,7 +3,7 @@
         <img src="../../assets/logo.png" class="card-img-top img" alt="Gambar Kursus">
         <div class="card-body">
             <div class="card-title">{{ data && data.title }}</div>
-            <div class="card-text">{{ data && data.creator }}</div>
+            <div class="card-text text-muted creator">{{ data && data.creator }}</div>
             <div class="card-text">
                 Duration: 2 Jam
             </div>
@@ -42,6 +42,11 @@ export default {
 .card-title {
     font-size: 18px;
     font-weight: 700;
+}
+
+.creator {
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .img {

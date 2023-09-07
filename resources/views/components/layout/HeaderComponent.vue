@@ -19,8 +19,8 @@
                     </ul>
                 </div>
                 <div>
-                    <img src="../../assets/logo.png" alt="Profil" width="40" height="40">
-                    Nama Pengguna
+                    <button class="btn btn-outline-secondary text-white me-2">Sign in</button>
+                    <button class="btn btn-outline-light">Log in</button>
                 </div>
             </div>
         </nav>
